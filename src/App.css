@@ -3,6 +3,19 @@
   font-weight: 600;
   font-style: italic;
 }
+@media (max-width: 600px) {
+  * {
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  .heading{
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+}
 .heading{
   font-family: "Dancing Script", serif;
   font-optical-sizing: auto;
@@ -172,7 +185,7 @@
 .search-form {
   max-width: 500px;
   width: 100%;
-  margin: auto;
+  margin-top: 1rem;
 }
 
 .search-form .form-control {
@@ -362,16 +375,7 @@
   animation: spin 1s linear infinite;
 }
 
-.spinner-image {
-  position: absolute;
-  top: 48%;
-  left: 50%;
-  transform: translate(-50%, -100%);
-  background-image: url('./assets/favicon-png.png'); /* Replace with your image path */
-  background-size: cover;
-  height: 50px;
-  width: 50px;
-}
+
 
 @keyframes spin {
   0% {

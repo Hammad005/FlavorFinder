@@ -8,7 +8,6 @@ const Loading = () => {
         <div className="spinner-border" role="status">
           <span className="visually-hidden">Loading...</span>
         </div>
-        <div className="spinner-image"></div>
         <img src={logo} alt="FlavorFinder" className="mt-4" width={200} />
       </div>
     </>
