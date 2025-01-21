@@ -1,27 +1,30 @@
 * {
-  font-family: "Merriweather";
+  font-family: "Merriweather", serif;
   font-weight: 600;
   font-style: italic;
 }
+
 @media (max-width: 600px) {
   * {
-    font-family: "Merriweather";
+    font-family: "Merriweather", serif;
     font-weight: 600;
     font-style: italic;
   }
-  .heading{
-    font-family: "Dancing Script";
+  .heading {
+    font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
   }
 }
-.heading{
-  font-family: "Dancing Script";
+
+.heading {
+  font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
 }
+
 .navbar {
   box-shadow: 0 10px 10px rgba(18, 82, 75, 0.2);
   background-color: #ffff !important;
@@ -285,7 +288,7 @@
   margin-top: 1rem;
 }
 .itemlist-heading{
-  font-size: 4.5rem;
+  font-size: 4.5rem !important;
   color: #12524b;
 }
 .itemlist-card {
