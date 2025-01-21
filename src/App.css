@@ -1,23 +1,23 @@
 * {
-  font-family: "Merriweather", serif;
+  font-family: "Merriweather";
   font-weight: 600;
   font-style: italic;
 }
 @media (max-width: 600px) {
   * {
-    font-family: "Merriweather", serif;
+    font-family: "Merriweather";
     font-weight: 600;
     font-style: italic;
   }
   .heading{
-    font-family: "Dancing Script", serif;
+    font-family: "Dancing Script";
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
   }
 }
 .heading{
-  font-family: "Dancing Script", serif;
+  font-family: "Dancing Script";
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
